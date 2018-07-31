@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1144eab4d1d12b4cbd3a9cfb35d1d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1266376844}
+  target: {fileID: 0}
   yDistance: 3.5
   zDistance: 5
 --- !u!1001 &697347152
@@ -1322,6 +1322,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1680625795
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 14930fc64b365a547af65cb88ba1c2b6, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1684597365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1433,7 @@ MonoBehaviour:
   Tracks:
   - {fileID: 1329629667412870, guid: f1f2890713099e04f88ffc4b10996961, type: 2}
   - {fileID: 1495239077418980, guid: 3f3e98ac36ac88b4a9ca48e09937e5d6, type: 2}
-  player: {fileID: 1266376840}
+  player: {fileID: 0}
 --- !u!1 &1852291330
 GameObject:
   m_ObjectHideFlags: 0
